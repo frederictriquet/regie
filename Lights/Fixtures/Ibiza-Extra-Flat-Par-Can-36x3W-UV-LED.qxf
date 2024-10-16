@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1</Version>
+  <Author>Frédéric Triquet</Author>
+ </Creator>
+ <Manufacturer>Ibiza</Manufacturer>
+ <Model>Extra-Flat Par Can 36x3W UV LED</Model>
+ <Type>Color Changer</Type>
+ <Channel Name="Dimmer" Preset="IntensityMasterDimmer"/>
+ <Channel Name="Strobe" Preset="ShutterStrobeSlowFast"/>
+ <Mode Name="1 channel">
+  <Channel Number="0" ActsOn="0">Dimmer</Channel>
+ </Mode>
+ <Mode Name="2 channels">
+  <Channel Number="0" ActsOn="1">Dimmer</Channel>
+  <Channel Number="1">Strobe</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="32" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>

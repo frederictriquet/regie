@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1</Version>
+  <Author>Frédéric Triquet</Author>
+ </Creator>
+ <Manufacturer>BoomToneDJ</Manufacturer>
+ <Model>Party Par 123</Model>
+ <Type>Color Changer</Type>
+ <Channel Name="Mode">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="10">Manual control channels 4 to 7</Capability>
+  <Capability Min="11" Max="50">Static color mode(A1)</Capability>
+  <Capability Min="51" Max="100">RGB jump (A2)</Capability>
+  <Capability Min="101" Max="150">RGB fade (A3)</Capability>
+  <Capability Min="151" Max="200">Sound control (A4)</Capability>
+  <Capability Min="201" Max="255">Strobe (A5)</Capability>
+ </Channel>
+ <Channel Name="Colors">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="39">changement de 7 couleurs</Capability>
+  <Capability Min="40" Max="59">rouge</Capability>
+  <Capability Min="60" Max="79">vert</Capability>
+  <Capability Min="80" Max="99">bleu</Capability>
+  <Capability Min="100" Max="119">jaune</Capability>
+  <Capability Min="120" Max="139">cyan</Capability>
+  <Capability Min="140" Max="159">magenta</Capability>
+  <Capability Min="160" Max="179">rouge + vert</Capability>
+  <Capability Min="180" Max="199">rouge + bleu</Capability>
+  <Capability Min="200" Max="219">vert + bleu</Capability>
+  <Capability Min="220" Max="255">rouge + vert + bleu</Capability>
+ </Channel>
+ <Channel Name="Speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">vitesse modes (canal 1)</Capability>
+ </Channel>
+ <Channel Name="Dimmer" Preset="IntensityDimmer"/>
+ <Channel Name="Red" Preset="IntensityRed"/>
+ <Channel Name="Green" Preset="IntensityGreen"/>
+ <Channel Name="Blue" Preset="IntensityBlue"/>
+ <Mode Name="7 channels">
+  <Channel Number="0">Mode</Channel>
+  <Channel Number="1">Colors</Channel>
+  <Channel Number="2">Speed</Channel>
+  <Channel Number="3">Dimmer</Channel>
+  <Channel Number="4">Red</Channel>
+  <Channel Number="5">Green</Channel>
+  <Channel Number="6">Blue</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+ </Physical>
+</FixtureDefinition>
