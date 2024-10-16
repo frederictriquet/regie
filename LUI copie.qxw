@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1</Version>
+  <Author>Frédéric Triquet</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <BeatGenerator BeatType="Disabled" BPM="0"/>
+   <Universe Name="Universe 1" ID="0">
+    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: A50285BI)" Line="0">
+     <PluginParameters UniverseChannels="67"/>
+    </Output>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Ibiza</Manufacturer>
+   <Model>Extra-Flat Par Can 36x3W UV LED</Model>
+   <Mode>1 channel</Mode>
+   <ID>0</ID>
+   <Name>UV</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Ibiza</Manufacturer>
+   <Model>Extra-Large Par Projector 27x6W RGBW LED</Model>
+   <Mode>8 channels</Mode>
+   <ID>1</ID>
+   <Name>Télé</Name>
+   <Universe>0</Universe>
+   <Address>1</Address>
+   <Channels>8</Channels>
+   <ExcludeFade>5,6,7</ExcludeFade>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Ayra</Manufacturer>
+   <Model>ComPar 10</Model>
+   <Mode>8 Channel</Mode>
+   <ID>3</ID>
+   <Name>Rue Jardin</Name>
+   <Universe>0</Universe>
+   <Address>9</Address>
+   <Channels>8</Channels>
+   <ExcludeFade>1,7</ExcludeFade>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Ayra</Manufacturer>
+   <Model>ComPar 10</Model>
+   <Mode>8 Channel</Mode>
+   <ID>4</ID>
+   <Name>Rue Cour</Name>
+   <Universe>0</Universe>
+   <Address>19</Address>
+   <Channels>8</Channels>
+   <ExcludeFade>1,7</ExcludeFade>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Ayra</Manufacturer>
+   <Model>ComPar 10</Model>
+   <Mode>8 Channel</Mode>
+   <ID>5</ID>
+   <Name>Face Jardin</Name>
+   <Universe>0</Universe>
+   <Address>29</Address>
+   <Channels>8</Channels>
+   <ExcludeFade>1,7</ExcludeFade>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Ayra</Manufacturer>
+   <Model>ComPar 10</Model>
+   <Mode>8 Channel</Mode>
+   <ID>6</ID>
+   <Name>Douche Jardin</Name>
+   <Universe>0</Universe>
+   <Address>39</Address>
+   <Channels>8</Channels>
+   <ExcludeFade>1,7</ExcludeFade>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Ayra</Manufacturer>
+   <Model>ComPar 10</Model>
+   <Mode>8 Channel</Mode>
+   <ID>7</ID>
+   <Name>Douche Cour</Name>
+   <Universe>0</Universe>
+   <Address>49</Address>
+   <Channels>8</Channels>
+   <ExcludeFade>1,7</ExcludeFade>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Ayra</Manufacturer>
+   <Model>ComPar 10</Model>
+   <Mode>8 Channel</Mode>
+   <ID>8</ID>
+   <Name>Face Cour</Name>
+   <Universe>0</Universe>
+   <Address>59</Address>
+   <Channels>8</Channels>
+   <ExcludeFade>1,7</ExcludeFade>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>Tout</Name>
+   <Size X="10" Y="10"/>
+   <Head X="0" Y="4" Fixture="3">0</Head>
+   <Head X="9" Y="4" Fixture="4">0</Head>
+   <Head X="0" Y="9" Fixture="5">0</Head>
+   <Head X="1" Y="9" Fixture="6">0</Head>
+   <Head X="4" Y="9" Fixture="1">0</Head>
+   <Head X="5" Y="9" Fixture="0">0</Head>
+   <Head X="8" Y="9" Fixture="7">0</Head>
+   <Head X="9" Y="9" Fixture="8">0</Head>
+  </FixtureGroup>
+  <ChannelsGroup ID="0" Name="Red Group" Value="0">3,0,3,2,4,0,4,2,5,0,5,2,6,0,6,2,7,0,7,2,8,0,8,2</ChannelsGroup>
+  <ChannelsGroup ID="1" Name="Green Group" Value="0">3,0,3,3,4,0,4,3,5,0,5,3,6,0,6,3,7,0,7,3,8,0,8,3</ChannelsGroup>
+  <ChannelsGroup ID="2" Name="Blue Group" Value="0">3,0,3,4,4,0,4,4,5,0,5,4,6,0,6,4,7,0,7,4,8,0,8,4</ChannelsGroup>
+  <ChannelsGroup ID="3" Name="White Group" Value="0">3,0,3,5,4,0,4,5,5,0,5,5,6,0,6,5,7,0,7,5,8,0,8,5</ChannelsGroup>
+  <ChannelsGroup ID="4" Name="Amber Group" Value="0">3,0,3,6,4,0,4,6,5,0,5,6,6,0,6,6,7,0,7,6,8,0,8,6</ChannelsGroup>
+  <Function ID="0" Type="Scene" Name="Télé Foot #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,68,1,57,2,75,3,62,4,28</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Chaser" Name="PF Froid -&gt; Vert -&gt; Rouge">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+  </Function>
+  <Function ID="2" Type="Scene" Name="PF Blanc">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>3,255</ChannelGroupsVal>
+   <FixtureVal ID="3">0,255,5,255</FixtureVal>
+   <FixtureVal ID="4">0,255,5,255</FixtureVal>
+   <FixtureVal ID="5">0,255,5,255</FixtureVal>
+   <FixtureVal ID="6">0,255,5,255</FixtureVal>
+   <FixtureVal ID="7">0,255,5,255</FixtureVal>
+   <FixtureVal ID="8">0,255,5,255</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Scene" Name="PF Ambre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>4,255</ChannelGroupsVal>
+   <FixtureVal ID="3">0,255,6,255</FixtureVal>
+   <FixtureVal ID="4">0,255,6,255</FixtureVal>
+   <FixtureVal ID="5">0,255,6,255</FixtureVal>
+   <FixtureVal ID="6">0,255,6,255</FixtureVal>
+   <FixtureVal ID="7">0,255,6,255</FixtureVal>
+   <FixtureVal ID="8">0,255,6,255</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Scene" Name="PF Rouge">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="3">0,255,2,255</FixtureVal>
+   <FixtureVal ID="4">0,255,2,255</FixtureVal>
+   <FixtureVal ID="5">0,255,2,255</FixtureVal>
+   <FixtureVal ID="6">0,255,2,255</FixtureVal>
+   <FixtureVal ID="7">0,255,2,255</FixtureVal>
+   <FixtureVal ID="8">0,255,2,255</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="PF Vert">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>1,255</ChannelGroupsVal>
+   <FixtureVal ID="3">0,255,3,255</FixtureVal>
+   <FixtureVal ID="4">0,255,3,255</FixtureVal>
+   <FixtureVal ID="5">0,255,3,255</FixtureVal>
+   <FixtureVal ID="6">0,255,3,255</FixtureVal>
+   <FixtureVal ID="7">0,255,3,255</FixtureVal>
+   <FixtureVal ID="8">0,255,3,255</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="Disco">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">0,255,7,116</FixtureVal>
+   <FixtureVal ID="6">0,255,7,116</FixtureVal>
+   <FixtureVal ID="8">0,255,7,139</FixtureVal>
+   <FixtureVal ID="5">0,255,7,139</FixtureVal>
+   <FixtureVal ID="4">0,255,7,149</FixtureVal>
+   <FixtureVal ID="3">0,255,7,149</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="Télé Foot #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,68,1,57,2,75,3,18,4,28</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="Télé Foot #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,68,1,57,2,39,3,62,4,28</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="Télé Foot #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,68,1,0,2,73,3,11,4,28</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Chaser" Name="Télé - Animation Foot">
+   <Speed FadeIn="0" FadeOut="0" Duration="7893"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
+   <Step Number="0" FadeIn="0" Hold="1000" FadeOut="0">7</Step>
+   <Step Number="1" FadeIn="0" Hold="2000" FadeOut="0">0</Step>
+   <Step Number="2" FadeIn="0" Hold="4000" FadeOut="0">8</Step>
+   <Step Number="3" FadeIn="0" Hold="5000" FadeOut="0">9</Step>
+  </Function>
+  <Function ID="11" Type="Scene" Name="Télé Netflix #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,68,1,66,2,0,3,66,4,64</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Collection" Name="Match de foot">
+   <Step Number="0">10</Step>
+   <Step Number="1">28</Step>
+  </Function>
+  <Function ID="13" Type="Scene" Name="Nuit Forêt sombre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">0,72,5,57</FixtureVal>
+   <FixtureVal ID="3">0,72,5,57</FixtureVal>
+   <FixtureVal ID="0">0,66</FixtureVal>
+  </Function>
+  <Function ID="14" Type="Scene" Name="Nuit Forêt étoiles #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">0,72,5,57</FixtureVal>
+   <FixtureVal ID="3">0,72,5,57</FixtureVal>
+   <FixtureVal ID="0">0,121</FixtureVal>
+   <FixtureVal ID="1">0,198,1,143,3,101</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="Nuit Forêt étoiles #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">0,72,5,57</FixtureVal>
+   <FixtureVal ID="3">0,72,5,57</FixtureVal>
+   <FixtureVal ID="0">0,121</FixtureVal>
+   <FixtureVal ID="1">0,198,1,125,3,180</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Chaser" Name="Télé - Nuit Forêt étoiles">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="1000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">14</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">15</Step>
+  </Function>
+  <Function ID="17" Type="Scene" Name="Télé Netflix #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,68,1,97,2,0,3,86,4,64</FixtureVal>
+  </Function>
+  <Function ID="18" Type="Scene" Name="Télé Netflix #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,68,1,66,2,0,3,94,4,64</FixtureVal>
+  </Function>
+  <Function ID="19" Type="Scene" Name="Télé Netflix #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,68,1,84,2,0,3,94,4,64</FixtureVal>
+  </Function>
+  <Function ID="20" Type="Scene" Name="Télé Netflix Tudum #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,68,1,196,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="21" Type="Scene" Name="Télé Netflix Tudum #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,68,1,196,2,0,3,48,4,149</FixtureVal>
+  </Function>
+  <Function ID="22" Type="Chaser" Name="Télé - Netflix">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
+   <Step Number="0" FadeIn="0" Hold="1000" FadeOut="0">17</Step>
+   <Step Number="1" FadeIn="0" Hold="2000" FadeOut="0">11</Step>
+   <Step Number="2" FadeIn="0" Hold="4000" FadeOut="0">18</Step>
+   <Step Number="3" FadeIn="0" Hold="5000" FadeOut="0">19</Step>
+  </Function>
+  <Function ID="23" Type="Chaser" Name="Télé - Netflix Tudum">
+   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
+   <Step Number="0" FadeIn="0" Hold="2000" FadeOut="0">20</Step>
+   <Step Number="1" FadeIn="0" Hold="3000" FadeOut="0">21</Step>
+   <Step Number="2" FadeIn="0" Hold="600000" FadeOut="0">22</Step>
+  </Function>
+  <Function ID="24" Type="Chaser" Name="PF Froid -&gt; Vert">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+  </Function>
+  <Function ID="25" Type="Scene" Name="Douche Jardin">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">0,0,6,255</FixtureVal>
+  </Function>
+  <Function ID="26" Type="Scene" Name="Douche Cour">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">0,0,6,255</FixtureVal>
+  </Function>
+  <Function ID="27" Type="Collection" Name="Film">
+   <Step Number="0">28</Step>
+   <Step Number="1">22</Step>
+  </Function>
+  <Function ID="28" Type="Scene" Name="Rues lumière basse">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">0,50,6,255</FixtureVal>
+   <FixtureVal ID="3">0,50,6,255</FixtureVal>
+  </Function>
+  <Function ID="29" Type="Collection" Name="Tudum">
+   <Step Number="0">23</Step>
+   <Step Number="1">28</Step>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>1</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="3" Units="0"/>
+   <FxItem ID="0" XPos="2947.37" YPos="2649.12"/>
+   <FxItem ID="1" XPos="2306.79" YPos="2644.17"/>
+   <FxItem ID="3" XPos="28.5931" YPos="934.885"/>
+   <FxItem ID="4" XPos="4807.02" YPos="771.93"/>
+   <FxItem ID="5" XPos="438.596" YPos="2649.12"/>
+   <FxItem ID="6" XPos="982.456" YPos="2824.56"/>
+   <FxItem ID="7" XPos="3842.11" YPos="2807.02"/>
+   <FxItem ID="8" XPos="4350.88" YPos="2631.58"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <CueList Caption="PF Froid-&gt;Vert" ID="0">
+    <WindowState Visible="False" X="520" Y="0" Width="445" Height="245"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Chaser>1</Chaser>
+    <NextPrevBehavior>0</NextPrevBehavior>
+    <Next/>
+    <Previous/>
+    <Playback/>
+    <Stop/>
+    <SlidersMode>Crossfade</SlidersMode>
+   </CueList>
+   <Frame Caption="Douches" ID="3">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="55" Y="275" Width="260" Height="300"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="Douche Jardin" ID="4" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="0" Y="0" Width="75" Height="290"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset/>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="6">0</Channel>
+      <Channel Fixture="6">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Douche Cour" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="75" Y="0" Width="70" Height="290"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset/>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="7">0</Channel>
+      <Channel Fixture="7">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Douches" ID="6" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="175" Y="0" Width="75" Height="290"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset/>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="6">0</Channel>
+      <Channel Fixture="6">6</Channel>
+      <Channel Fixture="7">0</Channel>
+      <Channel Fixture="7">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <SoloFrame Caption="" ID="7">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="600" Y="285" Width="395" Height="290"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Match de foot" ID="8" Icon="">
+     <WindowState Visible="False" X="25" Y="55" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="12"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Film" ID="9" Icon="">
+     <WindowState Visible="False" X="95" Y="55" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="27"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Tudum" ID="10" Icon="">
+     <WindowState Visible="False" X="160" Y="55" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="29"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
