@@ -128,11 +128,6 @@
    <Head X="3" Y="1" Fixture="7">0</Head>
    <Head X="4" Y="1" Fixture="8">0</Head>
   </FixtureGroup>
-  <ChannelsGroup ID="0" Name="Red Group" Value="0">3,0,3,2,4,0,4,2,5,0,5,2,6,0,6,2,7,0,7,2,8,0,8,2</ChannelsGroup>
-  <ChannelsGroup ID="1" Name="Green Group" Value="0">3,0,3,3,4,0,4,3,5,0,5,3,6,0,6,3,7,0,7,3,8,0,8,3</ChannelsGroup>
-  <ChannelsGroup ID="2" Name="Blue Group" Value="0">3,0,3,4,4,0,4,4,5,0,5,4,6,0,6,4,7,0,7,4,8,0,8,4</ChannelsGroup>
-  <ChannelsGroup ID="3" Name="White Group" Value="0">3,0,3,5,4,0,4,5,5,0,5,5,6,0,6,5,7,0,7,5,8,0,8,5</ChannelsGroup>
-  <ChannelsGroup ID="4" Name="Amber Group" Value="0">3,0,3,6,4,0,4,6,5,0,5,6,6,0,6,6,7,0,7,6,8,0,8,6</ChannelsGroup>
   <Function ID="0" Type="Scene" Name="Télé Foot #2">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="1">1,128,2,168,3,138,4,88</FixtureVal>
@@ -274,7 +269,7 @@
    <FixtureVal ID="3">2,0,3,0,4,0,5,255,6,0</FixtureVal>
   </Function>
   <Function ID="31" Type="RGBMatrix" Name="Nuit féérique">
-   <Speed FadeIn="0" FadeOut="0" Duration="68"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="10"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <Algorithm Type="Script">Waves</Algorithm>
@@ -284,7 +279,7 @@
    <Property Name="tailfade" Value="Yes"/>
    <Property Name="taillength" Value="50"/>
   </Function>
-  <Monitor DisplayMode="1" ShowLabels="0">
+  <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
@@ -316,7 +311,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="40" Y="5" Width="1090" Height="500"/>
+    <WindowState Visible="True" X="40" Y="5" Width="1095" Height="525"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -334,7 +329,7 @@
      </Appearance>
      <Input Universe="0" Channel="2"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="112">
       <Channel Fixture="6">0</Channel>
      </Level>
      <Playback>
@@ -352,7 +347,7 @@
      </Appearance>
      <Input Universe="0" Channel="3"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="80">
       <Channel Fixture="7">0</Channel>
      </Level>
      <Playback>
@@ -370,7 +365,7 @@
      </Appearance>
      <Input Universe="0" Channel="0"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="98">
       <Channel Fixture="3">0</Channel>
       <Channel Fixture="4">0</Channel>
      </Level>
@@ -389,27 +384,9 @@
      </Appearance>
      <Input Universe="0" Channel="1"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="94">
       <Channel Fixture="5">0</Channel>
       <Channel Fixture="8">0</Channel>
-     </Level>
-     <Playback>
-      <Function>4294967295</Function>
-     </Playback>
-    </Slider>
-    <Slider Caption="Télé" ID="14" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="625" Y="150" Width="80" Height="170"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Input Universe="0" Channel="5"/>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="60">
-      <Channel Fixture="1">0</Channel>
      </Level>
      <Playback>
       <Function>4294967295</Function>
@@ -426,7 +403,7 @@
      </Appearance>
      <Input Universe="0" Channel="7"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="174">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="0">0</Channel>
      </Level>
      <Playback>
@@ -513,7 +490,7 @@
      </Appearance>
      <Input Universe="0" Channel="19"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="3">5</Channel>
       <Channel Fixture="4">5</Channel>
       <Channel Fixture="5">5</Channel>
@@ -536,7 +513,7 @@
      </Appearance>
      <Input Universe="0" Channel="20"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="3">6</Channel>
       <Channel Fixture="4">6</Channel>
       <Channel Fixture="5">6</Channel>
@@ -548,23 +525,8 @@
       <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <Slider Caption="Fader 30" ID="30" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="865" Y="150" Width="90" Height="190"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0"/>
-     <Playback>
-      <Function>4294967295</Function>
-     </Playback>
-    </Slider>
     <SpeedDial Caption="" ID="31">
-     <WindowState Visible="True" X="830" Y="0" Width="125" Height="150"/>
+     <WindowState Visible="True" X="970" Y="0" Width="70" Height="135"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -574,9 +536,9 @@
      </Appearance>
      <Visibility>66</Visibility>
      <AbsoluteValue Minimum="10" Maximum="400">
-      <Input Universe="0" Channel="22"/>
+      <Input Universe="0" Channel="23"/>
      </AbsoluteValue>
-     <Time>68</Time>
+     <Time>10</Time>
      <Function FadeIn="0" FadeOut="0" Duration="6">31</Function>
     </SpeedDial>
     <SoloFrame Caption="" ID="33">
@@ -587,7 +549,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="530" Y="110" Width="80" Height="240"/>
+     <WindowState Visible="True" X="535" Y="125" Width="75" Height="215"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -596,7 +558,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
      <Button Caption="Match" ID="27" Icon="">
-      <WindowState Visible="True" X="5" Y="45" Width="65" Height="60"/>
+      <WindowState Visible="True" X="5" Y="45" Width="65" Height="55"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -610,7 +572,7 @@
       <Input Universe="0" Channel="37"/>
      </Button>
      <Button Caption="Film" ID="28" Icon="">
-      <WindowState Visible="True" X="5" Y="110" Width="65" Height="55"/>
+      <WindowState Visible="True" X="5" Y="100" Width="65" Height="55"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -624,7 +586,7 @@
       <Input Universe="0" Channel="53"/>
      </Button>
      <Button Caption="Tudum" ID="29" Icon="">
-      <WindowState Visible="True" X="5" Y="170" Width="65" Height="55"/>
+      <WindowState Visible="True" X="5" Y="155" Width="65" Height="55"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -638,7 +600,52 @@
       <Input Universe="0" Channel="69"/>
      </Button>
     </SoloFrame>
-    <Frame Caption="" ID="35">
+    <Slider Caption="" ID="39" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="620" Y="5" Width="95" Height="120"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="21"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="1">4</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Clock Type="Clock" Caption="" ID="40">
+     <WindowState Visible="True" X="10" Y="420" Width="150" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Ubuntu Sans,-1,28,5,75,0,0,0,0,0</Font>
+     </Appearance>
+    </Clock>
+    <Clock Type="Stopwatch" Caption="" ID="41">
+     <WindowState Visible="True" X="180" Y="420" Width="150" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Ubuntu Sans,-1,28,5,75,0,0,0,0,0</Font>
+     </Appearance>
+     <PlayPause>
+      <Input Universe="0" Channel="59"/>
+     </PlayPause>
+     <Reset>
+      <Input Universe="0" Channel="58"/>
+     </Reset>
+    </Clock>
+    <Slider Caption="Télé" ID="14" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="625" Y="160" Width="80" Height="170"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -646,19 +653,36 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="710" Y="115" Width="60" Height="195"/>
+     <Input Universe="0" Channel="5"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="1">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Frame Caption="" ID="45">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="720" Y="135" Width="60" Height="195"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
-     <Button Caption="R" ID="36" Icon="">
+     <Button Caption="R" ID="42" Icon="">
       <WindowState Visible="True" X="5" Y="40" Width="50" Height="50"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundColor>4294901760</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
@@ -667,12 +691,12 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="38"/>
      </Button>
-     <Button Caption="G" ID="37" Icon="">
+     <Button Caption="G" ID="43" Icon="">
       <WindowState Visible="True" X="5" Y="90" Width="50" Height="50"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundColor>4278255360</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
@@ -681,12 +705,12 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="54"/>
      </Button>
-     <Button Caption="B" ID="38" Icon="">
+     <Button Caption="B" ID="44" Icon="">
       <WindowState Visible="True" X="5" Y="140" Width="50" Height="50"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundColor>4278190335</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
@@ -697,21 +721,6 @@
      </Button>
     </Frame>
    </Frame>
-   <Slider Caption="Nuit féérique" ID="6" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="885" Y="535" Width="80" Height="200"/>
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0"/>
-    <Playback>
-     <Function>31</Function>
-    </Playback>
-   </Slider>
    <SoloFrame Caption="" ID="24">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
@@ -738,7 +747,7 @@
       <Font>Default</Font>
      </Appearance>
      <Function ID="6"/>
-     <Action>Toggle</Action>
+     <Action Override="0" ForceLTP="0">Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="41"/>
     </Button>
@@ -752,13 +761,13 @@
       <Font>Default</Font>
      </Appearance>
      <Function ID="2"/>
-     <Action>Toggle</Action>
+     <Action Override="0" ForceLTP="0">Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="42"/>
     </Button>
    </SoloFrame>
    <Button Caption="Nuit féérique &quot;CYCLE&quot;" ID="32" Icon="">
-    <WindowState Visible="True" X="345" Y="545" Width="225" Height="140"/>
+    <WindowState Visible="True" X="880" Y="545" Width="225" Height="140"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
