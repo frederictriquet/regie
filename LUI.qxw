@@ -136,7 +136,7 @@
   </FixtureGroup>
   <Function ID="0" Type="Scene" Name="Télé Foot #2">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">1,128,2,168,3,138,4,88</FixtureVal>
+   <FixtureVal ID="1">1,0,2,255,3,0,4,101</FixtureVal>
   </Function>
   <Function ID="1" Type="Scene" Name="Disco STOP Faces">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -175,15 +175,15 @@
   </Function>
   <Function ID="7" Type="Scene" Name="Télé Foot #1">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">1,102,2,153,3,63,4,99</FixtureVal>
+   <FixtureVal ID="1">1,0,2,255,3,0,4,53</FixtureVal>
   </Function>
   <Function ID="8" Type="Scene" Name="Télé Foot #3">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">1,170,2,138,3,170,4,144</FixtureVal>
+   <FixtureVal ID="1">1,0,2,255,3,0,4,144</FixtureVal>
   </Function>
   <Function ID="9" Type="Scene" Name="Télé Foot #4">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">1,0,2,175,3,79,4,144</FixtureVal>
+   <FixtureVal ID="1">1,0,2,255,3,0,4,203</FixtureVal>
   </Function>
   <Function ID="10" Type="Chaser" Name="Télé - Animation Foot">
    <Speed FadeIn="0" FadeOut="0" Duration="7893"/>
@@ -295,7 +295,7 @@
    <Property Name="taillength" Value="50"/>
    <Property Name="tailfade" Value="Yes"/>
   </Function>
-  <Monitor DisplayMode="0" ShowLabels="0">
+  <Monitor DisplayMode="1" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
@@ -546,7 +546,7 @@
       </Appearance>
       <Input Universe="0" Channel="5"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="1">0</Channel>
       </Level>
       <Playback>
@@ -980,6 +980,16 @@
     <Intensity Adjust="False">100</Intensity>
     <Input Universe="0" Channel="46"/>
    </Button>
+   <Label Caption="Passer le spot uv sur 1 canal." ID="35">
+    <WindowState Visible="True" X="305" Y="560" Width="290" Height="110"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Label>
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>
