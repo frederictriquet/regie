@@ -10,10 +10,8 @@
   <InputOutputMap>
    <BeatGenerator BeatType="Disabled" BPM="0"/>
    <Universe Name="Universe 1" ID="0">
-    <Input Plugin="MIDI" UID="nanoKONTROL2 nanoKONTROL2 _ CTR" Line="1" Profile="KORG nanoKONTROL2"/>
-    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: A50285BI)" Line="0">
-     <PluginParameters UniverseChannels="67"/>
-    </Output>
+    <Input Plugin="MIDI" UID="input" Line="1" Profile="KORG nanoKONTROL2"/>
+    <Output Plugin="DMX USB" UID="None" Line="0"/>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3" ID="2"/>
@@ -127,6 +125,14 @@
    <Head X="2" Y="1" Fixture="6">0</Head>
    <Head X="3" Y="1" Fixture="7">0</Head>
    <Head X="4" Y="1" Fixture="8">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="2">
+   <Name>compars hauts</Name>
+   <Size X="4" Y="1"/>
+   <Head X="0" Y="0" Fixture="5">0</Head>
+   <Head X="1" Y="0" Fixture="6">0</Head>
+   <Head X="2" Y="0" Fixture="7">0</Head>
+   <Head X="3" Y="0" Fixture="8">0</Head>
   </FixtureGroup>
   <Function ID="0" Type="Scene" Name="Télé Foot #2">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -283,9 +289,9 @@
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <Algorithm Type="Script">Waves</Algorithm>
-   <MonoColor>4280282569</MonoColor>
+   <MonoColor>4294902015</MonoColor>
    <ControlMode>RGB</ControlMode>
-   <FixtureGroup>1</FixtureGroup>
+   <FixtureGroup>2</FixtureGroup>
    <Property Name="taillength" Value="50"/>
    <Property Name="tailfade" Value="Yes"/>
   </Function>
