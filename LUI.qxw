@@ -4,13 +4,13 @@
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.13.1</Version>
-  <Author>rodger</Author>
+  <Author>Frédéric Triquet</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <BeatGenerator BeatType="Disabled" BPM="0"/>
    <Universe Name="Universe 1" ID="0">
-    <Input Plugin="MIDI" UID="input" Line="1" Profile="KORG nanoKONTROL2"/>
+    <Input Plugin="MIDI" UID="nanoKONTROL2" Line="0" Profile="KORG nanoKONTROL2"/>
     <Output Plugin="DMX USB" UID="None" Line="0"/>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
@@ -274,6 +274,11 @@
    <FixtureVal ID="7">7,0</FixtureVal>
    <FixtureVal ID="6">7,0</FixtureVal>
   </Function>
+  <Function ID="25" Type="Scene" Name="Rues blanches">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">2,0,3,0,4,0,5,255,6,0</FixtureVal>
+   <FixtureVal ID="3">2,0,3,0,4,0,5,255,6,0</FixtureVal>
+  </Function>
   <Function ID="27" Type="Collection" Name="Film">
    <Step Number="0">22</Step>
   </Function>
@@ -285,17 +290,17 @@
    <FixtureVal ID="3">2,0,3,0,4,0,5,255,6,0</FixtureVal>
   </Function>
   <Function ID="31" Type="RGBMatrix" Name="Nuit féérique">
-   <Speed FadeIn="0" FadeOut="0" Duration="400"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="150"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <Algorithm Type="Script">Waves</Algorithm>
    <MonoColor>4294902015</MonoColor>
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>2</FixtureGroup>
-   <Property Name="taillength" Value="50"/>
    <Property Name="tailfade" Value="Yes"/>
+   <Property Name="taillength" Value="50"/>
   </Function>
-  <Monitor DisplayMode="1" ShowLabels="0">
+  <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
@@ -335,7 +340,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="" ID="22" WidgetStyle="Knob" InvertedAppearance="false">
-     <WindowState Visible="True" X="555" Y="35" Width="85" Height="120"/>
+     <WindowState Visible="True" X="610" Y="35" Width="85" Height="120"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -345,7 +350,7 @@
      </Appearance>
      <Input Universe="0" Channel="20"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="244">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="3">6</Channel>
       <Channel Fixture="4">6</Channel>
       <Channel Fixture="5">6</Channel>
@@ -426,10 +431,10 @@
        <Font>Default</Font>
       </Appearance>
       <Visibility>66</Visibility>
-      <AbsoluteValue Minimum="10" Maximum="400">
+      <AbsoluteValue Minimum="150" Maximum="400">
        <Input Universe="0" Channel="23"/>
       </AbsoluteValue>
-      <Time>400</Time>
+      <Time>150</Time>
       <Function FadeIn="0" FadeOut="0" Duration="6">31</Function>
      </SpeedDial>
      <Label Caption="8" ID="18">
@@ -451,7 +456,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="645" Y="0" Width="230" Height="375"/>
+     <WindowState Visible="True" X="695" Y="0" Width="230" Height="375"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -546,7 +551,7 @@
       </Appearance>
       <Input Universe="0" Channel="5"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="1">0</Channel>
       </Level>
       <Playback>
@@ -630,7 +635,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="380" Y="5" Width="140" Height="365"/>
+     <WindowState Visible="True" X="470" Y="5" Width="140" Height="365"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -648,7 +653,7 @@
       </Appearance>
       <Input Universe="0" Channel="19"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="204">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="3">5</Channel>
        <Channel Fixture="4">5</Channel>
        <Channel Fixture="5">5</Channel>
@@ -671,7 +676,7 @@
       </Appearance>
       <Input Universe="0" Channel="3"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="178">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="7">0</Channel>
       </Level>
       <Playback>
@@ -711,7 +716,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="285" Y="5" Width="100" Height="365"/>
+     <WindowState Visible="True" X="350" Y="5" Width="100" Height="365"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -752,7 +757,7 @@
       </Appearance>
       <Input Universe="0" Channel="2"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="158">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="6">0</Channel>
       </Level>
       <Playback>
@@ -778,7 +783,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="100" Y="5" Width="140" Height="365"/>
+     <WindowState Visible="True" X="195" Y="5" Width="140" Height="365"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -819,7 +824,7 @@
       </Appearance>
       <Input Universe="0" Channel="1"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="128">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="5">0</Channel>
        <Channel Fixture="8">0</Channel>
       </Level>
@@ -860,7 +865,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="5" Y="5" Width="90" Height="365"/>
+     <WindowState Visible="True" X="5" Y="5" Width="135" Height="365"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -868,7 +873,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
      <Slider Caption="" ID="19" WidgetStyle="Knob" InvertedAppearance="false">
-      <WindowState Visible="True" X="0" Y="35" Width="80" Height="115"/>
+      <WindowState Visible="True" X="55" Y="35" Width="80" Height="115"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -878,7 +883,7 @@
       </Appearance>
       <Input Universe="0" Channel="16"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="132">
        <Channel Fixture="3">2</Channel>
        <Channel Fixture="4">2</Channel>
        <Channel Fixture="5">2</Channel>
@@ -891,7 +896,7 @@
       </Playback>
      </Slider>
      <Slider Caption="Rues" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="0" Y="150" Width="80" Height="170"/>
+      <WindowState Visible="True" X="55" Y="150" Width="80" Height="170"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -901,7 +906,7 @@
       </Appearance>
       <Input Universe="0" Channel="0"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="164">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="3">0</Channel>
        <Channel Fixture="4">0</Channel>
       </Level>
@@ -910,7 +915,7 @@
       </Playback>
      </Slider>
      <Label Caption="1" ID="13">
-      <WindowState Visible="True" X="-10" Y="325" Width="100" Height="30"/>
+      <WindowState Visible="True" X="-10" Y="325" Width="145" Height="30"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -919,6 +924,20 @@
        <Font>Default</Font>
       </Appearance>
      </Label>
+     <Button Caption="W" ID="36" Icon="">
+      <WindowState Visible="True" X="0" Y="150" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294967295</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="25"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="32"/>
+     </Button>
     </Frame>
    </Frame>
    <SoloFrame Caption="" ID="24">

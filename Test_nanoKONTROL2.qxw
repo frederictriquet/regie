@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.11.1</Version>
+  <Author>Allan Rhynas</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0">
+    <Input Plugin="MIDI" Line="3" Profile="KORG nanoKONTROL2">
+     <PluginParameters MIDISendNoteOff="true"/>
+    </Input>
+    <Feedback Plugin="MIDI" Line="7"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>0</ID>
+   <Name>Faders #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>1</ID>
+   <Name>Faders #2</Name>
+   <Universe>0</Universe>
+   <Address>1</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>2</ID>
+   <Name>Faders #3</Name>
+   <Universe>0</Universe>
+   <Address>2</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>3</ID>
+   <Name>Faders #4</Name>
+   <Universe>0</Universe>
+   <Address>3</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>4</ID>
+   <Name>Faders #5</Name>
+   <Universe>0</Universe>
+   <Address>4</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>5</ID>
+   <Name>Faders #6</Name>
+   <Universe>0</Universe>
+   <Address>5</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>6</ID>
+   <Name>Faders #7</Name>
+   <Universe>0</Universe>
+   <Address>6</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>7</ID>
+   <Name>Faders #8</Name>
+   <Universe>0</Universe>
+   <Address>7</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>8</ID>
+   <Name>Knobs #1</Name>
+   <Universe>0</Universe>
+   <Address>8</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>9</ID>
+   <Name>Knobs #2</Name>
+   <Universe>0</Universe>
+   <Address>9</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>10</ID>
+   <Name>Knobs #3</Name>
+   <Universe>0</Universe>
+   <Address>10</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>11</ID>
+   <Name>Knobs #4</Name>
+   <Universe>0</Universe>
+   <Address>11</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>12</ID>
+   <Name>Knobs #5</Name>
+   <Universe>0</Universe>
+   <Address>12</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>13</ID>
+   <Name>Knobs #6</Name>
+   <Universe>0</Universe>
+   <Address>13</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>14</ID>
+   <Name>Knobs #7</Name>
+   <Universe>0</Universe>
+   <Address>14</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>15</ID>
+   <Name>Knobs #8</Name>
+   <Universe>0</Universe>
+   <Address>15</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>16</ID>
+   <Name>Solos #1</Name>
+   <Universe>0</Universe>
+   <Address>16</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>17</ID>
+   <Name>Solos #2</Name>
+   <Universe>0</Universe>
+   <Address>17</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>18</ID>
+   <Name>Solos #3</Name>
+   <Universe>0</Universe>
+   <Address>18</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>19</ID>
+   <Name>Solos #4</Name>
+   <Universe>0</Universe>
+   <Address>19</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>20</ID>
+   <Name>Solos #5</Name>
+   <Universe>0</Universe>
+   <Address>20</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>21</ID>
+   <Name>Solos #6</Name>
+   <Universe>0</Universe>
+   <Address>21</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>22</ID>
+   <Name>Solos #7</Name>
+   <Universe>0</Universe>
+   <Address>22</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>23</ID>
+   <Name>Solos #8</Name>
+   <Universe>0</Universe>
+   <Address>23</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>24</ID>
+   <Name>Mutes #1</Name>
+   <Universe>0</Universe>
+   <Address>24</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>25</ID>
+   <Name>Mutes #2</Name>
+   <Universe>0</Universe>
+   <Address>25</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>26</ID>
+   <Name>Mutes #3</Name>
+   <Universe>0</Universe>
+   <Address>26</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>27</ID>
+   <Name>Mutes #4</Name>
+   <Universe>0</Universe>
+   <Address>27</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>28</ID>
+   <Name>Mutes #5</Name>
+   <Universe>0</Universe>
+   <Address>28</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>29</ID>
+   <Name>Mutes #6</Name>
+   <Universe>0</Universe>
+   <Address>29</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>30</ID>
+   <Name>Mutes #7</Name>
+   <Universe>0</Universe>
+   <Address>30</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>31</ID>
+   <Name>Mutes #8</Name>
+   <Universe>0</Universe>
+   <Address>31</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>32</ID>
+   <Name>Records #1</Name>
+   <Universe>0</Universe>
+   <Address>32</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>33</ID>
+   <Name>Records #2</Name>
+   <Universe>0</Universe>
+   <Address>33</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>34</ID>
+   <Name>Records #3</Name>
+   <Universe>0</Universe>
+   <Address>34</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>35</ID>
+   <Name>Records #4</Name>
+   <Universe>0</Universe>
+   <Address>35</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>36</ID>
+   <Name>Records #5</Name>
+   <Universe>0</Universe>
+   <Address>36</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>37</ID>
+   <Name>Records #6</Name>
+   <Universe>0</Universe>
+   <Address>37</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>38</ID>
+   <Name>Records #7</Name>
+   <Universe>0</Universe>
+   <Address>38</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>39</ID>
+   <Name>Records #8</Name>
+   <Universe>0</Universe>
+   <Address>39</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>40</ID>
+   <Name>Track L</Name>
+   <Universe>0</Universe>
+   <Address>40</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>41</ID>
+   <Name>Track R</Name>
+   <Universe>0</Universe>
+   <Address>41</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>42</ID>
+   <Name>Cycle</Name>
+   <Universe>0</Universe>
+   <Address>42</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>43</ID>
+   <Name>Marker Set</Name>
+   <Universe>0</Universe>
+   <Address>43</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>44</ID>
+   <Name>Marker L</Name>
+   <Universe>0</Universe>
+   <Address>44</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>45</ID>
+   <Name>Marker R</Name>
+   <Universe>0</Universe>
+   <Address>45</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>46</ID>
+   <Name>Transport Prev</Name>
+   <Universe>0</Universe>
+   <Address>46</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>47</ID>
+   <Name>Transport Next</Name>
+   <Universe>0</Universe>
+   <Address>47</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>48</ID>
+   <Name>Transport Stop</Name>
+   <Universe>0</Universe>
+   <Address>48</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>49</ID>
+   <Name>Transport Play</Name>
+   <Universe>0</Universe>
+   <Address>49</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>50</ID>
+   <Name>Transport Rec</Name>
+   <Universe>0</Universe>
+   <Address>50</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Function ID="0" Type="Scene" Name="Fader 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Scene" Name="Fader 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,255</FixtureVal>
+  </Function>
+  <Function ID="2" Type="Scene" Name="Fader 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Scene" Name="Fader 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Scene" Name="Fader 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">0,255</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="Fader 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">0,255</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="Fader 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">0,255</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="Fader 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">0,255</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="Knob 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">0,255</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="Knob 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">0,255</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Scene" Name="Knob 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,255</FixtureVal>
+  </Function>
+  <Function ID="11" Type="Scene" Name="Knob 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="11">0,255</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Scene" Name="Knob 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Scene" Name="Knob 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,255</FixtureVal>
+  </Function>
+  <Function ID="14" Type="Scene" Name="Knob 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="14">0,255</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="Knob 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="15">0,255</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Scene" Name="Solo 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="16">0,255</FixtureVal>
+  </Function>
+  <Function ID="17" Type="Scene" Name="Solo 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="17">0,255</FixtureVal>
+  </Function>
+  <Function ID="18" Type="Scene" Name="Solo 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="18">0,255</FixtureVal>
+  </Function>
+  <Function ID="19" Type="Scene" Name="Solo 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="19">0,255</FixtureVal>
+  </Function>
+  <Function ID="20" Type="Scene" Name="Solo 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="20">0,255</FixtureVal>
+  </Function>
+  <Function ID="21" Type="Scene" Name="Solo 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">0,255</FixtureVal>
+  </Function>
+  <Function ID="22" Type="Scene" Name="Solo 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="22">0,255</FixtureVal>
+  </Function>
+  <Function ID="23" Type="Scene" Name="Solo 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="23">0,255</FixtureVal>
+  </Function>
+  <Function ID="24" Type="Scene" Name="Mute 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="24">0,255</FixtureVal>
+  </Function>
+  <Function ID="25" Type="Scene" Name="Mute 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="25">0,255</FixtureVal>
+  </Function>
+  <Function ID="26" Type="Scene" Name="Mute 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,255</FixtureVal>
+  </Function>
+  <Function ID="27" Type="Scene" Name="Mute 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="27">0,255</FixtureVal>
+  </Function>
+  <Function ID="28" Type="Scene" Name="Mute 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="28">0,255</FixtureVal>
+  </Function>
+  <Function ID="29" Type="Scene" Name="Mute 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="29">0,255</FixtureVal>
+  </Function>
+  <Function ID="30" Type="Scene" Name="Mute 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="30">0,255</FixtureVal>
+  </Function>
+  <Function ID="31" Type="Scene" Name="Mute 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="31">0,255</FixtureVal>
+  </Function>
+  <Function ID="32" Type="Scene" Name="Rec 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="32">0,255</FixtureVal>
+  </Function>
+  <Function ID="33" Type="Scene" Name="Rec 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">0,255</FixtureVal>
+  </Function>
+  <Function ID="34" Type="Scene" Name="Rec 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,255</FixtureVal>
+  </Function>
+  <Function ID="35" Type="Scene" Name="Rec 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="35">0,255</FixtureVal>
+  </Function>
+  <Function ID="36" Type="Scene" Name="Rec 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="36">0,255</FixtureVal>
+  </Function>
+  <Function ID="37" Type="Scene" Name="Rec 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">0,255</FixtureVal>
+  </Function>
+  <Function ID="38" Type="Scene" Name="Rec 7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="38">0,255</FixtureVal>
+  </Function>
+  <Function ID="39" Type="Scene" Name="Rec 8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="39">0,255</FixtureVal>
+  </Function>
+  <Function ID="40" Type="Scene" Name="Track L">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="40">0,255</FixtureVal>
+  </Function>
+  <Function ID="41" Type="Scene" Name="Track R">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,255</FixtureVal>
+  </Function>
+  <Function ID="42" Type="Scene" Name="Cycle">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="42">0,255</FixtureVal>
+  </Function>
+  <Function ID="43" Type="Scene" Name="Marker Set">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="43">0,255</FixtureVal>
+  </Function>
+  <Function ID="44" Type="Scene" Name="Marker L">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="44">0,255</FixtureVal>
+  </Function>
+  <Function ID="45" Type="Scene" Name="Marker R">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="45">0,255</FixtureVal>
+  </Function>
+  <Function ID="46" Type="Scene" Name="Transport Prev">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="46">0,255</FixtureVal>
+  </Function>
+  <Function ID="47" Type="Scene" Name="Transport Next">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="47">0,255</FixtureVal>
+  </Function>
+  <Function ID="48" Type="Scene" Name="Transport Stop">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="48">0,255</FixtureVal>
+  </Function>
+  <Function ID="49" Type="Scene" Name="Transport Play">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="49">0,255</FixtureVal>
+  </Function>
+  <Function ID="50" Type="Scene" Name="Transport Rec">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="50">0,255</FixtureVal>
+  </Function>
+  <Monitor DisplayMode="1" ShowLabels="1">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="6" Height="3" Depth="6" Units="0"/>
+   <FxItem ID="0" XPos="1074.47" YPos="2968.09"/>
+   <FxItem ID="1" XPos="1765.96" YPos="2936.17"/>
+   <FxItem ID="2" XPos="2404.26" YPos="2968.09"/>
+   <FxItem ID="3" XPos="3053.19" YPos="2957.45"/>
+   <FxItem ID="4" XPos="3691.49" YPos="2946.81"/>
+   <FxItem ID="5" XPos="4361.7" YPos="2946.81"/>
+   <FxItem ID="6" XPos="4968.08" YPos="2946.81"/>
+   <FxItem ID="7" XPos="5510.64" YPos="2957.45"/>
+   <FxItem ID="8" XPos="989.362" YPos="148.936"/>
+   <FxItem ID="9" XPos="1659.57" YPos="138.298"/>
+   <FxItem ID="10" XPos="2276.6" YPos="148.936"/>
+   <FxItem ID="11" XPos="2925.53" YPos="127.66"/>
+   <FxItem ID="12" XPos="3553.19" YPos="127.66"/>
+   <FxItem ID="13" XPos="4244.68" YPos="127.66"/>
+   <FxItem ID="14" XPos="4818.23" YPos="119.767"/>
+   <FxItem ID="15" XPos="5436.17" YPos="95.7447"/>
+   <FxItem ID="16" XPos="1031.91" YPos="840.426"/>
+   <FxItem ID="17" XPos="1691.49" YPos="840.426"/>
+   <FxItem ID="18" XPos="2340.43" YPos="840.426"/>
+   <FxItem ID="19" XPos="2957.45" YPos="861.702"/>
+   <FxItem ID="20" XPos="3595.74" YPos="872.34"/>
+   <FxItem ID="21" XPos="4265.96" YPos="872.34"/>
+   <FxItem ID="22" XPos="4840.43" YPos="882.979"/>
+   <FxItem ID="23" XPos="5468.08" YPos="872.34"/>
+   <FxItem ID="24" XPos="1063.83" YPos="1425.53"/>
+   <FxItem ID="25" XPos="1723.4" YPos="1382.98"/>
+   <FxItem ID="26" XPos="2361.7" YPos="1393.62"/>
+   <FxItem ID="27" XPos="2989.36" YPos="1414.89"/>
+   <FxItem ID="28" XPos="3648.94" YPos="1414.89"/>
+   <FxItem ID="29" XPos="4308.51" YPos="1414.89"/>
+   <FxItem ID="30" XPos="4882.98" YPos="1425.53"/>
+   <FxItem ID="31" XPos="5500" YPos="1457.45"/>
+   <FxItem ID="32" XPos="1095.74" YPos="2000"/>
+   <FxItem ID="33" XPos="1734.04" YPos="2010.64"/>
+   <FxItem ID="34" XPos="2414.89" YPos="2031.91"/>
+   <FxItem ID="35" XPos="3021.28" YPos="2042.55"/>
+   <FxItem ID="36" XPos="3680.85" YPos="2031.91"/>
+   <FxItem ID="37" XPos="4351.06" YPos="2021.28"/>
+   <FxItem ID="38" XPos="4914.89" YPos="2000"/>
+   <FxItem ID="39" XPos="5531.92" YPos="2021.28"/>
+   <FxItem ID="40" XPos="-829.787" YPos="744.681"/>
+   <FxItem ID="41" XPos="-457.447" YPos="744.681"/>
+   <FxItem ID="42" XPos="-1069.56" YPos="1459.36"/>
+   <FxItem ID="43" XPos="-500" YPos="1468.09"/>
+   <FxItem ID="44" XPos="-127.66" YPos="1457.45"/>
+   <FxItem ID="45" XPos="223.404" YPos="1436.17"/>
+   <FxItem ID="46" XPos="-925.532" YPos="3000"/>
+   <FxItem ID="47" XPos="-553.191" YPos="2521.28"/>
+   <FxItem ID="48" XPos="-234.043" YPos="3021.28"/>
+   <FxItem ID="49" XPos="138.298" YPos="2521.28"/>
+   <FxItem ID="50" XPos="457.447" YPos="3010.64"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Frame Caption="nanoKONTROL2" ID="0">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4294967295</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="0" Y="5" Width="1205" Height="390"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Label Caption="KORG" ID="1">
+     <WindowState Visible="True" X="135" Y="45" Width="70" Height="30"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,16,-1,5,75,0,0,0,0,0</Font>
+     </Appearance>
+    </Label>
+    <Label Caption="nanoKONTROL2" ID="2">
+     <WindowState Visible="True" X="40" Y="85" Width="240" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,24,-1,5,50,1,0,0,0,0</Font>
+     </Appearance>
+    </Label>
+    <Label Caption="TRACK" ID="3">
+     <WindowState Visible="True" X="40" Y="135" Width="40" Height="20"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+    </Label>
+    <Button Caption="&lt;" ID="4" Icon="">
+     <WindowState Visible="True" X="15" Y="170" Width="40" Height="20"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4292335575</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="40"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="58"/>
+    </Button>
+    <Button Caption="&gt;" ID="5" Icon="">
+     <WindowState Visible="True" X="70" Y="170" Width="40" Height="20"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4292335575</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="41"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="59"/>
+    </Button>
+    <Button Caption="CYCLE" ID="6" Icon="">
+     <WindowState Visible="True" X="15" Y="240" Width="40" Height="20"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,7,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="42"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="46"/>
+    </Button>
+    <Label Caption="---------------- MARKER --------------" ID="7">
+     <WindowState Visible="True" X="105" Y="210" Width="195" Height="25"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Label>
+    <Button Caption="SET" ID="8" Icon="">
+     <WindowState Visible="True" X="125" Y="240" Width="40" Height="20"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4292335575</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="43"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="60"/>
+    </Button>
+    <Button Caption="&lt;" ID="9" Icon="">
+     <WindowState Visible="True" X="180" Y="240" Width="40" Height="20"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4292335575</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="44"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="61"/>
+    </Button>
+    <Button Caption="&gt;" ID="10" Icon="">
+     <WindowState Visible="True" X="235" Y="240" Width="40" Height="20"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4292335575</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="45"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="62"/>
+    </Button>
+    <Button Caption="Stop" ID="11" Icon="">
+     <WindowState Visible="True" X="125" Y="290" Width="45" Height="45"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="48"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="42"/>
+    </Button>
+    <Button Caption="Play" ID="12" Icon="">
+     <WindowState Visible="True" X="180" Y="290" Width="45" Height="45"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="49"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="41"/>
+    </Button>
+    <Button Caption="Rec" ID="13" Icon="">
+     <WindowState Visible="True" X="235" Y="290" Width="45" Height="45"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="50"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="45"/>
+    </Button>
+    <Button Caption="Prev" ID="14" Icon="">
+     <WindowState Visible="True" X="15" Y="290" Width="45" Height="45"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="46"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="43"/>
+    </Button>
+    <Button Caption="Next" ID="15" Icon="">
+     <WindowState Visible="True" X="70" Y="290" Width="45" Height="45"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="47"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="44"/>
+    </Button>
+    <Slider Caption="1" ID="16" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="360" Y="45" Width="60" Height="105"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="16"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>8</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="2" ID="17" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="470" Y="45" Width="60" Height="105"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="17"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>9</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="3" ID="18" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="580" Y="45" Width="60" Height="105"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="18"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>10</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="4" ID="19" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="690" Y="45" Width="60" Height="105"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="19"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>11</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="5" ID="20" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="800" Y="45" Width="60" Height="105"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="20"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>12</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="6" ID="21" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="910" Y="45" Width="60" Height="105"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="21"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>13</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="8" ID="22" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="1130" Y="45" Width="60" Height="105"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="23"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>15</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="7" ID="23" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="1020" Y="45" Width="60" Height="105"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="22"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>14</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="1" ID="24" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="360" Y="150" Width="60" Height="205"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="0"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>0</Function>
+     </Playback>
+    </Slider>
+    <Button Caption="S1" ID="25" Icon="">
+     <WindowState Visible="True" X="325" Y="175" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="16"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="32"/>
+    </Button>
+    <Button Caption="M1" ID="26" Icon="">
+     <WindowState Visible="True" X="325" Y="235" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="24"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="48"/>
+    </Button>
+    <Button Caption="R1" ID="27" Icon="">
+     <WindowState Visible="True" X="325" Y="295" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="32"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="64"/>
+    </Button>
+    <Button Caption="S2" ID="28" Icon="">
+     <WindowState Visible="True" X="435" Y="175" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="17"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="33"/>
+    </Button>
+    <Button Caption="M2" ID="29" Icon="">
+     <WindowState Visible="True" X="435" Y="235" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="25"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="49"/>
+    </Button>
+    <Button Caption="R2" ID="30" Icon="">
+     <WindowState Visible="True" X="435" Y="295" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="33"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="65"/>
+    </Button>
+    <Slider Caption="2" ID="31" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="470" Y="150" Width="60" Height="205"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="1"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>1</Function>
+     </Playback>
+    </Slider>
+    <Label Caption="" ID="32">
+     <WindowState Visible="True" X="10" Y="55" Width="30" Height="20"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4291690495</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,6,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+    </Label>
+    <Label Caption="" ID="33">
+     <WindowState Visible="True" X="10" Y="65" Width="30" Height="20"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,6,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+    </Label>
+    <Button Caption="S3" ID="34" Icon="">
+     <WindowState Visible="True" X="545" Y="175" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="18"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="34"/>
+    </Button>
+    <Button Caption="M3" ID="35" Icon="">
+     <WindowState Visible="True" X="545" Y="235" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="26"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="50"/>
+    </Button>
+    <Button Caption="R3" ID="36" Icon="">
+     <WindowState Visible="True" X="545" Y="295" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="34"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="66"/>
+    </Button>
+    <Slider Caption="3" ID="37" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="580" Y="150" Width="60" Height="205"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="2"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>2</Function>
+     </Playback>
+    </Slider>
+    <Button Caption="S4" ID="38" Icon="">
+     <WindowState Visible="True" X="655" Y="175" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="19"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="35"/>
+    </Button>
+    <Button Caption="M4" ID="39" Icon="">
+     <WindowState Visible="True" X="655" Y="235" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="27"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="51"/>
+    </Button>
+    <Button Caption="R4" ID="40" Icon="">
+     <WindowState Visible="True" X="655" Y="295" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="35"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="67"/>
+    </Button>
+    <Slider Caption="4" ID="41" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="690" Y="150" Width="60" Height="205"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="3"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>3</Function>
+     </Playback>
+    </Slider>
+    <Button Caption="S5" ID="42" Icon="">
+     <WindowState Visible="True" X="765" Y="175" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="20"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="36"/>
+    </Button>
+    <Button Caption="M5" ID="43" Icon="">
+     <WindowState Visible="True" X="765" Y="235" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="28"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="52"/>
+    </Button>
+    <Button Caption="R5" ID="44" Icon="">
+     <WindowState Visible="True" X="765" Y="295" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="36"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="68"/>
+    </Button>
+    <Slider Caption="5" ID="45" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="800" Y="150" Width="60" Height="205"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="4"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>4</Function>
+     </Playback>
+    </Slider>
+    <Button Caption="S6" ID="46" Icon="">
+     <WindowState Visible="True" X="875" Y="175" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="21"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="37"/>
+    </Button>
+    <Button Caption="M6" ID="47" Icon="">
+     <WindowState Visible="True" X="875" Y="235" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="29"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="53"/>
+    </Button>
+    <Button Caption="R6" ID="48" Icon="">
+     <WindowState Visible="True" X="875" Y="295" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="37"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="69"/>
+    </Button>
+    <Slider Caption="6" ID="49" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="910" Y="150" Width="60" Height="205"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="5"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>5</Function>
+     </Playback>
+    </Slider>
+    <Button Caption="S7" ID="50" Icon="">
+     <WindowState Visible="True" X="985" Y="175" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="22"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="38"/>
+    </Button>
+    <Button Caption="M7" ID="51" Icon="">
+     <WindowState Visible="True" X="985" Y="235" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="30"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="54"/>
+    </Button>
+    <Button Caption="R7" ID="52" Icon="">
+     <WindowState Visible="True" X="985" Y="290" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="38"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="70"/>
+    </Button>
+    <Slider Caption="7" ID="53" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="1020" Y="150" Width="60" Height="205"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="6"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>6</Function>
+     </Playback>
+    </Slider>
+    <Button Caption="S8" ID="54" Icon="">
+     <WindowState Visible="True" X="1095" Y="175" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="23"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="39"/>
+    </Button>
+    <Button Caption="M8" ID="55" Icon="">
+     <WindowState Visible="True" X="1095" Y="235" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="31"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="55"/>
+    </Button>
+    <Button Caption="R8" ID="56" Icon="">
+     <WindowState Visible="True" X="1095" Y="290" Width="35" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Noto Sans,8,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="39"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="71"/>
+    </Button>
+    <Slider Caption="8" ID="57" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="1130" Y="150" Width="60" Height="205"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="7"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>7</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Label Caption="Note all QLC+ buttons are configured as type 'Toggle' to allow button backlights to remain on for test purposes." ID="59">
+    <WindowState Visible="True" X="10" Y="475" Width="350" Height="55"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4294967040</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Noto Sans,10,-1,5,50,0,0,0,0,0</Font>
+    </Appearance>
+   </Label>
+   <Label Caption="From the I/O Tab, enable Input and Feedback for nanoKONTROL2 Midi plugin." ID="58">
+    <WindowState Visible="True" X="10" Y="405" Width="260" Height="55"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4294954495</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Noto Sans,10,-1,5,50,0,0,0,0,0</Font>
+    </Appearance>
+   </Label>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
