@@ -290,7 +290,7 @@
    <FixtureVal ID="3">2,0,3,0,4,0,5,255,6,0</FixtureVal>
   </Function>
   <Function ID="31" Type="RGBMatrix" Name="Nuit féérique">
-   <Speed FadeIn="0" FadeOut="0" Duration="150"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="400"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <Algorithm Type="Script">Waves</Algorithm>
@@ -300,7 +300,7 @@
    <Property Name="taillength" Value="50"/>
    <Property Name="tailfade" Value="Yes"/>
   </Function>
-  <Monitor DisplayMode="1" ShowLabels="0">
+  <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
@@ -332,7 +332,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="25" Y="25" Width="1490" Height="505"/>
+    <WindowState Visible="True" X="0" Y="0" Width="1085" Height="405"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -350,7 +350,7 @@
      </Appearance>
      <Input Universe="0" Channel="20"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="8">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="3">6</Channel>
       <Channel Fixture="4">6</Channel>
       <Channel Fixture="5">6</Channel>
@@ -362,32 +362,6 @@
       <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <Clock Type="Clock" Caption="" ID="40">
-     <WindowState Visible="True" X="10" Y="420" Width="150" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Ubuntu Sans,-1,28,5,75,0,0,0,0,0</Font>
-     </Appearance>
-    </Clock>
-    <Clock Type="Stopwatch" Caption="" ID="41">
-     <WindowState Visible="True" X="180" Y="420" Width="150" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Ubuntu Sans,-1,28,5,75,0,0,0,0,0</Font>
-     </Appearance>
-     <PlayPause>
-      <Input Universe="0" Channel="59"/>
-     </PlayPause>
-     <Reset>
-      <Input Universe="0" Channel="58"/>
-     </Reset>
-    </Clock>
     <Frame Caption="" ID="0">
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
@@ -396,7 +370,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="1050" Y="0" Width="90" Height="380"/>
+     <WindowState Visible="True" X="970" Y="0" Width="90" Height="380"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -434,7 +408,7 @@
       <AbsoluteValue Minimum="150" Maximum="400">
        <Input Universe="0" Channel="23"/>
       </AbsoluteValue>
-      <Time>150</Time>
+      <Time>400</Time>
       <Function FadeIn="0" FadeOut="0" Duration="6">31</Function>
      </SpeedDial>
      <Label Caption="8" ID="18">
@@ -551,7 +525,7 @@
       </Appearance>
       <Input Universe="0" Channel="5"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="60">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="1">0</Channel>
       </Level>
       <Playback>
@@ -653,7 +627,7 @@
       </Appearance>
       <Input Universe="0" Channel="19"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="110">
+      <Level LowLimit="0" HighLimit="255" Value="132">
        <Channel Fixture="3">5</Channel>
        <Channel Fixture="4">5</Channel>
        <Channel Fixture="5">5</Channel>
@@ -734,7 +708,7 @@
       </Appearance>
       <Input Universe="0" Channel="18"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="142">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="3">4</Channel>
        <Channel Fixture="4">4</Channel>
        <Channel Fixture="5">4</Channel>
@@ -801,7 +775,7 @@
       </Appearance>
       <Input Universe="0" Channel="17"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="238">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="3">3</Channel>
        <Channel Fixture="4">3</Channel>
        <Channel Fixture="5">3</Channel>
@@ -883,7 +857,7 @@
       </Appearance>
       <Input Universe="0" Channel="16"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="52">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="3">2</Channel>
        <Channel Fixture="4">2</Channel>
        <Channel Fixture="5">2</Channel>
@@ -948,7 +922,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="35" Y="535" Width="205" Height="145"/>
+    <WindowState Visible="True" X="375" Y="425" Width="205" Height="145"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -986,7 +960,7 @@
     </Button>
    </SoloFrame>
    <Button Caption="Nuit féérique &quot;CYCLE&quot;" ID="32" Icon="">
-    <WindowState Visible="True" X="880" Y="545" Width="225" Height="140"/>
+    <WindowState Visible="True" X="0" Y="415" Width="105" Height="95"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -999,16 +973,32 @@
     <Intensity Adjust="False">100</Intensity>
     <Input Universe="0" Channel="46"/>
    </Button>
-   <Label Caption="Passer le spot uv sur 1 canal." ID="35">
-    <WindowState Visible="True" X="305" Y="560" Width="290" Height="110"/>
+   <Clock Type="Stopwatch" Caption="" ID="41">
+    <WindowState Visible="True" X="155" Y="470" Width="150" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
      <BackgroundColor>Default</BackgroundColor>
      <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
+     <Font>Ubuntu Sans,-1,28,5,75,0,0,0,0,0</Font>
     </Appearance>
-   </Label>
+    <PlayPause>
+     <Input Universe="0" Channel="59"/>
+    </PlayPause>
+    <Reset>
+     <Input Universe="0" Channel="58"/>
+    </Reset>
+   </Clock>
+   <Clock Type="Clock" Caption="" ID="40">
+    <WindowState Visible="True" X="155" Y="420" Width="150" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Ubuntu Sans,-1,28,5,75,0,0,0,0,0</Font>
+    </Appearance>
+   </Clock>
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>
