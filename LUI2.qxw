@@ -10,7 +10,7 @@
   <InputOutputMap>
    <BeatGenerator BeatType="Disabled" BPM="0"/>
    <Universe Name="Universe 1" ID="0">
-    <Input Plugin="MIDI" UID="nanoKONTROL2" Line="0" Profile="KORG nanoKONTROL2"/>
+    <Input Plugin="MIDI" UID="None" Line="0" Profile="KORG nanoKONTROL2"/>
     <Output Plugin="DMX USB" UID="None" Line="0"/>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
@@ -349,7 +349,7 @@
     <Shortcut Page="0" Name="Normal"/>
     <Shortcut Page="1" Name="Foot"/>
     <PagesLoop>False</PagesLoop>
-    <Slider Caption="" ID="22" WidgetStyle="Knob" InvertedAppearance="false">
+    <Slider Caption="" ID="22" WidgetStyle="Knob" InvertedAppearance="false" CatchValues="true">
      <WindowState Visible="True" X="610" Y="75" Width="85" Height="120"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
@@ -626,7 +626,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
-     <Slider Caption="" ID="21" WidgetStyle="Knob" InvertedAppearance="false">
+     <Slider Caption="" ID="21" WidgetStyle="Knob" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="50" Y="35" Width="80" Height="115"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
@@ -649,7 +649,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Douche Cour" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="Douche Cour" ID="5" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="50" Y="150" Width="80" Height="175"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -707,7 +707,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
-     <Slider Caption="" ID="20" WidgetStyle="Knob" InvertedAppearance="false">
+     <Slider Caption="" ID="20" WidgetStyle="Knob" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="0" Y="35" Width="85" Height="115"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -730,7 +730,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Douche Jardin" ID="4" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="Douche Jardin" ID="4" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="0" Y="150" Width="85" Height="180"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -797,7 +797,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Faces" ID="12" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="Faces" ID="12" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="55" Y="150" Width="85" Height="170"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -879,7 +879,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Rues" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="Rues" ID="11" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="55" Y="150" Width="80" Height="170"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -923,7 +923,7 @@
       <Input Universe="0" Channel="32"/>
      </Button>
     </Frame>
-    <Slider Caption="Fader 37" ID="37" Page="1" WidgetStyle="Knob" InvertedAppearance="false">
+    <Slider Caption="Fader 37" ID="37" Page="1" WidgetStyle="Knob" InvertedAppearance="false" CatchValues="true">
      <WindowState Visible="False" X="610" Y="75" Width="85" Height="120"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
@@ -1198,7 +1198,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
-     <Slider Caption="Fader 63" ID="63" Page="1" WidgetStyle="Knob" InvertedAppearance="false">
+     <Slider Caption="Fader 63" ID="63" Page="1" WidgetStyle="Knob" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="False" X="50" Y="35" Width="80" Height="115"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
@@ -1219,7 +1219,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Douche Cour" ID="64" Page="1" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="Douche Cour" ID="64" Page="1" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="False" X="50" Y="150" Width="80" Height="175"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -1277,7 +1277,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
-     <Slider Caption="Fader 68" ID="68" Page="1" WidgetStyle="Knob" InvertedAppearance="false">
+     <Slider Caption="Fader 68" ID="68" Page="1" WidgetStyle="Knob" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="False" X="0" Y="35" Width="85" Height="115"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -1298,7 +1298,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Douche Jardin" ID="69" Page="1" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="Douche Jardin" ID="69" Page="1" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="False" X="0" Y="150" Width="85" Height="180"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -1342,7 +1342,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
-     <Slider Caption="Fader 72" ID="72" Page="1" WidgetStyle="Knob" InvertedAppearance="false">
+     <Slider Caption="Fader 72" ID="72" Page="1" WidgetStyle="Knob" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="False" X="55" Y="35" Width="85" Height="115"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -1363,7 +1363,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Faces" ID="73" Page="1" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="Faces" ID="73" Page="1" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="False" X="55" Y="150" Width="85" Height="170"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -1422,7 +1422,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
-     <Slider Caption="Fader 77" ID="77" Page="1" WidgetStyle="Knob" InvertedAppearance="false">
+     <Slider Caption="Fader 77" ID="77" Page="1" WidgetStyle="Knob" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="False" X="55" Y="35" Width="80" Height="115"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -1443,7 +1443,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Rues" ID="78" Page="1" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="Rues" ID="78" Page="1" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="False" X="55" Y="150" Width="80" Height="170"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>

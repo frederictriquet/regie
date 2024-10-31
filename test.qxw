@@ -11,11 +11,13 @@
    <BeatGenerator BeatType="Disabled" BPM="0"/>
    <Universe Name="Universe 1" ID="0">
     <Input Plugin="MIDI" UID="None" Line="1"/>
-    <Output Plugin="DMX USB" UID="None" Line="0"/>
+    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: A50285BI)" Line="0">
+     <PluginParameters UniverseChannels="47"/>
+    </Output>
    </Universe>
    <Universe Name="Universe 2" ID="1">
-    <Input Plugin="MIDI" UID="None" Line="0" Profile="KORG nanoKONTROL2"/>
-    <Feedback Plugin="MIDI" UID="None" Line="0">
+    <Input Plugin="MIDI" UID="nanoKONTROL2" Line="0" Profile="KORG nanoKONTROL2"/>
+    <Feedback Plugin="MIDI" UID="nanoKONTROL2" Line="0">
      <PluginParameters initmessage="Aucun"/>
     </Feedback>
    </Universe>
@@ -31,6 +33,16 @@
    <Universe>0</Universe>
    <Address>39</Address>
    <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>BoomToneDJ</Manufacturer>
+   <Model>Party Par 123</Model>
+   <Mode>7 channels</Mode>
+   <ID>1</ID>
+   <Name>Party Par 123</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>7</Channels>
   </Fixture>
   <Function ID="0" Type="Scene" Name="Nouvelle scène 0">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -78,7 +90,7 @@
      </Appearance>
      <Input Universe="1" Channel="0"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="166"/>
+     <Level LowLimit="0" HighLimit="255" Value="255"/>
      <Playback>
       <Function>4294967295</Function>
      </Playback>
@@ -230,8 +242,10 @@
      </Appearance>
      <Input Universe="1" Channel="0"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="166">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="0">2</Channel>
+      <Channel Fixture="1">3</Channel>
+      <Channel Fixture="1">4</Channel>
      </Level>
      <Playback>
       <Function>4294967295</Function>
@@ -248,7 +262,7 @@
      </Appearance>
      <Input Universe="1" Channel="65536"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="0">3</Channel>
      </Level>
      <Playback>
