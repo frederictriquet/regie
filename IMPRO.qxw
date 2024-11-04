@@ -4,15 +4,15 @@
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.13.1</Version>
-  <Author>rodger</Author>
+  <Author>Frédéric Triquet</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <BeatGenerator BeatType="Disabled" BPM="0"/>
    <Universe Name="Universe 1" ID="0">
-    <Input Plugin="MIDI" UID="input" Line="1" Profile="KORG nanoKONTROL2"/>
+    <Input Plugin="MIDI" UID="nanoKONTROL2" Line="0" Profile="KORG nanoKONTROL2"/>
     <Output Plugin="DMX USB" UID="None" Line="0"/>
-    <Feedback Plugin="MIDI" UID="input" Line="1"/>
+    <Feedback Plugin="MIDI" UID="nanoKONTROL2" Line="0"/>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3" ID="2"/>
@@ -79,75 +79,75 @@
    <Channels>8</Channels>
   </Fixture>
   <Function ID="0" Type="Scene" Name="LJR">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="0">2,255</FixtureVal>
   </Function>
   <Function ID="1" Type="Scene" Name="LJG">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="0">3,255</FixtureVal>
   </Function>
   <Function ID="2" Type="Scene" Name="LJB">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="0">4,255</FixtureVal>
   </Function>
   <Function ID="3" Type="Scene" Name="LCB">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="1">4,255</FixtureVal>
   </Function>
   <Function ID="4" Type="Scene" Name="FJR">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="2">2,255</FixtureVal>
   </Function>
   <Function ID="5" Type="Scene" Name="FJG">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="2">3,255</FixtureVal>
   </Function>
   <Function ID="6" Type="Scene" Name="FJB">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="2">4,255</FixtureVal>
   </Function>
   <Function ID="7" Type="Scene" Name="DJR">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="3">2,255</FixtureVal>
   </Function>
   <Function ID="8" Type="Scene" Name="DJG">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="3">3,255</FixtureVal>
   </Function>
   <Function ID="9" Type="Scene" Name="DJB">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="3">4,255</FixtureVal>
   </Function>
   <Function ID="10" Type="Scene" Name="DCR">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="4">2,255</FixtureVal>
   </Function>
   <Function ID="11" Type="Scene" Name="DCG">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="4">3,255</FixtureVal>
   </Function>
   <Function ID="12" Type="Scene" Name="DCB">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="4">4,255</FixtureVal>
   </Function>
   <Function ID="13" Type="Scene" Name="FCR">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="5">2,255</FixtureVal>
   </Function>
   <Function ID="14" Type="Scene" Name="FCB">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="5">4,255</FixtureVal>
   </Function>
   <Function ID="15" Type="Scene" Name="FCG">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="5">3,255</FixtureVal>
   </Function>
   <Function ID="16" Type="Scene" Name="LCR">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="1">2,255</FixtureVal>
   </Function>
   <Function ID="17" Type="Scene" Name="LCG">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="2509" FadeOut="862" Duration="0"/>
    <FixtureVal ID="1">3,255</FixtureVal>
   </Function>
   <Function ID="18" Type="Scene" Name="Disco">
@@ -198,7 +198,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="90" Y="55" Width="1105" Height="600"/>
+    <WindowState Visible="True" X="0" Y="30" Width="1105" Height="600"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -370,7 +370,7 @@
      </Appearance>
      <Input Universe="0" Channel="18"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Blue" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="62">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="0">4</Channel>
       <Channel Fixture="1">4</Channel>
       <Channel Fixture="2">4</Channel>
@@ -563,7 +563,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="7"/>
+     <Function ID="10"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="35"/>
@@ -577,7 +577,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="8"/>
+     <Function ID="11"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="51"/>
@@ -591,7 +591,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="9"/>
+     <Function ID="12"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="67"/>
@@ -736,7 +736,7 @@
      </Appearance>
     </Clock>
     <Clock Type="Stopwatch" Caption="" ID="34">
-     <WindowState Visible="True" X="375" Y="495" Width="150" Height="50"/>
+     <WindowState Visible="True" X="375" Y="490" Width="150" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -751,7 +751,73 @@
       <Input Universe="0" Channel="60"/>
      </Reset>
     </Clock>
+    <SpeedDial Caption="Fade Out" ID="36">
+     <WindowState Visible="True" X="1015" Y="40" Width="80" Height="130"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Visibility>98</Visibility>
+     <AbsoluteValue Minimum="0" Maximum="5000">
+      <Input Universe="0" Channel="23"/>
+     </AbsoluteValue>
+     <Time>862</Time>
+     <Function FadeIn="0" FadeOut="6" Duration="0">0</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">1</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">2</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">16</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">17</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">3</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">4</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">5</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">6</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">13</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">15</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">14</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">7</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">8</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">9</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">10</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">11</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">12</Function>
+    </SpeedDial>
    </Frame>
+   <SpeedDial Caption="Fade In" ID="35">
+    <WindowState Visible="True" X="935" Y="70" Width="80" Height="130"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>98</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="5000">
+     <Input Universe="0" Channel="22"/>
+    </AbsoluteValue>
+    <Time>2509</Time>
+    <Function FadeIn="6" FadeOut="0" Duration="0">0</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">1</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">2</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">16</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">17</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">3</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">4</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">5</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">6</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">13</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">15</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">14</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">7</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">8</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">9</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">10</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">11</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">12</Function>
+   </SpeedDial>
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>
