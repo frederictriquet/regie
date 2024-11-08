@@ -6,7 +6,7 @@
   <Version>4.13.1</Version>
   <Author>Frédéric Triquet</Author>
  </Creator>
- <Manufacturer>Ibiza</Manufacturer>
+ <Manufacturer>Ibiza Light</Manufacturer>
  <Model>Extra-Flat Par Can 36x3W UV LED</Model>
  <Type>Color Changer</Type>
  <Channel Name="Dimmer" Preset="IntensityMasterDimmer"/>

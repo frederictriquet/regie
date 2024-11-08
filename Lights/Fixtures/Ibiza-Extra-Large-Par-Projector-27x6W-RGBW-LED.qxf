@@ -6,7 +6,7 @@
   <Version>4.13.1</Version>
   <Author>Frédéric Triquet</Author>
  </Creator>
- <Manufacturer>Ibiza</Manufacturer>
+ <Manufacturer>Ibiza Light</Manufacturer>
  <Model>Extra-Large Par Projector 27x6W RGBW LED</Model>
  <Type>Color Changer</Type>
  <Channel Name="Dimmer" Preset="IntensityDimmer"/>
