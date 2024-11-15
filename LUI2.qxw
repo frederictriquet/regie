@@ -4,17 +4,15 @@
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.13.1</Version>
-  <Author>rodger</Author>
+  <Author>Frédéric Triquet</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <BeatGenerator BeatType="Disabled" BPM="0"/>
    <Universe Name="Universe 1" ID="0">
-    <Input Plugin="MIDI" UID="nanoKONTROL2 nanoKONTROL2 _ CTR" Line="1" Profile="KORG nanoKONTROL2"/>
-    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: A50285BI)" Line="0">
-     <PluginParameters UniverseChannels="67"/>
-    </Output>
-    <Feedback Plugin="MIDI" UID="nanoKONTROL2 nanoKONTROL2 _ CTR" Line="1"/>
+    <Input Plugin="MIDI" UID="None" Line="1" Profile="KORG nanoKONTROL2"/>
+    <Output Plugin="DMX USB" UID="None" Line="0"/>
+    <Feedback Plugin="MIDI" UID="None" Line="1"/>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3" ID="2"/>
@@ -298,6 +296,15 @@
   <Function ID="27" Type="Collection" Name="Film">
    <Step Number="0">22</Step>
   </Function>
+  <Function ID="28" Type="Scene" Name="Disco soft">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">7,219</FixtureVal>
+   <FixtureVal ID="6">7,217</FixtureVal>
+   <FixtureVal ID="8">7,216</FixtureVal>
+   <FixtureVal ID="5">7,189</FixtureVal>
+   <FixtureVal ID="4">7,169</FixtureVal>
+   <FixtureVal ID="3">7,202</FixtureVal>
+  </Function>
   <Function ID="29" Type="Collection" Name="Tudum">
    <Step Number="0">23</Step>
   </Function>
@@ -313,8 +320,8 @@
    <MonoColor>4294902015</MonoColor>
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>3</FixtureGroup>
-   <Property Name="tailfade" Value="Yes"/>
    <Property Name="taillength" Value="50"/>
+   <Property Name="tailfade" Value="Yes"/>
   </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
@@ -938,7 +945,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="370" Y="440" Width="205" Height="145"/>
+    <WindowState Visible="True" X="370" Y="440" Width="300" Height="140"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -973,6 +980,20 @@
      <Action Override="0" ForceLTP="0">Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="42"/>
+    </Button>
+    <Button Caption="Disco soft" ID="35" Icon="">
+     <WindowState Visible="True" X="205" Y="50" Width="85" Height="80"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="28"/>
+     <Action Override="0" ForceLTP="0">Flash</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="45"/>
     </Button>
    </SoloFrame>
    <Button Caption="Nuit féérique &quot;CYCLE&quot;" ID="32" Icon="">
